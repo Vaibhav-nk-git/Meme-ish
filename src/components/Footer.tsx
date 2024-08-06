@@ -8,12 +8,7 @@ export default function Footer() {
                
             <footer className="bg-black text-white p-4 text-center">
                 <div className='flex justify-center items-center'>
-                <Image
-            src="/media/logo.png"
-            width={50}
-            height={50}
-            alt="Picture of the author"
-            />
+                
             <p className='text-2xl font-md'>Memeish</p>
                 </div>
                 <div className='flex justify-center mt-5 mx-24 px-5 text-sm'>
