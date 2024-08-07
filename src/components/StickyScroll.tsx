@@ -20,8 +20,8 @@ const content = [
     ),
   },
   {
-    title: "Aeternity UI - Blockchain Platform",
-    description: "Aeternity is a decentralized, open-source blockchain platform that enables the creation of scalable, secure, and transparent applications.",
+    title: "Aceternity UI - The UI for the present and future",
+    description: "Almost every component in this application is taken from Aceternity UI.",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <Image
