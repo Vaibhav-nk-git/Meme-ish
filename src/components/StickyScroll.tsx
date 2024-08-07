@@ -5,8 +5,8 @@ import Image from "next/image";
  
 const content = [
   {
-    title: "Next.js: The Magic Behind Your Favorite Websites",
-    description: "Think of Next.js as the superhero cape for your React applications. It whips up blazing fast websites with server-side rendering and static site generation. Trust me, your users will thank you.",
+    title: "Next.js - The React Framework",
+    description: "Next.js is a popular React framework for building server-side rendered (SSR) and statically generated websites and applications.",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <Image
@@ -14,29 +14,29 @@ const content = [
           width={300}
           height={300}
           className="h-full w-full object-cover"
-          alt="Next.js logo"
+          alt="Aeternity Logo"
         />
       </div>
     ),
   },
   {
-    title: "Aceternity UI: Your UI Superhero Toolkit",
-    description: "Aceternity UI is like having a toolbox filled with superpowered UI components. Build stunning and interactive web interfaces with ease. It's your secret weapon for creating amazing user experiences.",
+    title: "Aeternity UI - Blockchain Platform",
+    description: "Aeternity is a decentralized, open-source blockchain platform that enables the creation of scalable, secure, and transparent applications.",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <Image
-          src="/media/aeternity.png"
+          src="/media/aceternity.png"
           width={300}
           height={300}
           className="h-full w-full object-cover"
-          alt="Aeternity UI logo"
+          alt="Aeternity Logo"
         />
       </div>
     ),
   },
   {
-    title: "Vaibhav: Your Friendly Neighborhood Full Stack Wizard",
-    description: "I'm Vaibhav, a full stack developer who turns code into magic. I wield the powers of MERN, Next.js, PostgreSQL, and AWS to create awesome web experiences. Let's build something amazing together!",
+    title: "Me aka Vaibhav : Full Stack Developer",
+    description: "I'm Vaibhav, a full stack developer with expertise in MERN (MongoDB, Express, React, Node.js) and Next.js, PostgreSQL, and AWS. I build scalable and efficient web applications.",
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <Image
@@ -44,12 +44,13 @@ const content = [
           width={300}
           height={300}
           className="h-full w-full object-cover"
-          alt="Vaibhav's profile picture"
+          alt="Aeternity Logo"
         />
       </div>
     ),
   },
 ];
+
 
   
 export function StickyScrollRevealDemo() {
